@@ -56,56 +56,56 @@
         <!-- Counter-->
       </div>
       <br />
-      <!-- ADS -->
-      <div class="container my-2">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="card rouded-0 mt-2">
-              <div class="anuncio">
-                <div class="interstial p-1">
-                  <div class="ads">
-                    <a style="cursor: pointer" onclick="muestra('contenido')">
-                      <script
-                        type="text/javascript"
-                        src="https://sailif.com/bnr.php?section=General&pub=825775&format=300x250&ga=a"
-                      ></script>
-                      <noscript
-                        ><a
-                          href="https://yllix.com/publishers/825775"
-                          target="_blank"
-                          ><img
-                            src="//ylx-aff.advertica-cdn.com/pub/300x250.png"
-                            style="
-                              border: none;
-                              margin: 0;
-                              padding: 0;
-                              vertical-align: baseline;
-                            "
-                            alt="ylliX - Online Advertising Network" /></a
-                      ></noscript>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Boton Continuar al Destino -->
-            <div id="continuar">
-              <a href="https://www.youtube.com"
-                ><button type="submit" class="btn btn-success mt-3">
-                  Continuar
-                </button></a
-              >
-              <!-- Ir al Destino -->
-            </div>
-            <!-- END ADS -->
+      <div id="anun_div">
+        <iframe
+          src="https://sailif.com/bnr_xload.php?section=General&pub=825775&format=300x250&ga=a&xt=160985607656760&xtt='+qs+'"
+          width="300"
+          height="250"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"
+          scrolling="no"
+          sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts"
+        >
+        </iframe
+        >"
+        <noscript
+          ><a href="https://yllix.com/publishers/825775"
+            ><img
+              src="//ylx-aff.advertica-cdn.com/pub/300x250.png"
+              style="
+                border: none;
+                margin: 0;
+                padding: 0;
+                vertical-align: baseline;
+              "
+              alt="ylliX - Online Advertising Network" /></a
+        ></noscript>
+        <!-- ADS -->
+        <!-- Boton Click -->
+        <!-- Boton Ir al Destino -->
+      </div>
+      <div class="botonoculto" id="btnDescargar">
+        <div style="text-align: center">
+          <div class="guia my-3" style="text-align: center">
+            <a
+              href="https://www.youtube.com"
+              class="btn icon-btn btn-info"
+              style="
+                border-radius: 5px 7px 7px 6px;
+                font-family: Bowlby One SC;
+                padding: 19px 6px 17px 7px !important;
+                font-size: 12px;
+              "
+            >
+              Ir al Destino</a
+            >
           </div>
         </div>
       </div>
-      <!-- ADS CONTAINER GENERAL -->
 
-      <!-- Boton Click -->
-      <div class="guia my-3" style="text-align: center">
+      <!-- Fin Boton Ir al Destino -->
+      <div class="guia my-3" style="text-align: center" id="continuar">
         <a
           class="btn icon-btn btn-info"
           style="
@@ -118,9 +118,8 @@
           Haga Click en el anuncio y Luego regrese</a
         >
       </div>
-      <!-- Boton click END -->
     </div>
-
+    <script src="js/ads.js"></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
